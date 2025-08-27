@@ -25,7 +25,7 @@ hyperparameters:
     - [mse, lpips]
     - [mae, lpips]
 dataset: food101
-logger_path: runs.icml/main/food101
+logger_path: runs/main/food101
 batch_size: 128
 cuda_sync: false
 very_verbose: false
