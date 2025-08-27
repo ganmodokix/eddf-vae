@@ -246,7 +246,7 @@ class FactorizedGaussianBN(nn.Module):
 
         return mean, logvar
 
-class SigSigVAE(VAE):
+class EDDFVAE(VAE):
 
     def __init__(self, hyperparameters: dict):
         super().__init__(hyperparameters)

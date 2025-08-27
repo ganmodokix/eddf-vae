@@ -100,8 +100,8 @@ from .deepvae import DeepVAE
 register_model("deepvae", DeepVAE)
 
 
-from .sigsigvae import SigSigVAE
-register_model("sigsigvae", SigSigVAE)
+from .eddfvae import EDDFVAE
+register_model("eddfvae", EDDFVAE)
 
 from .vitvae import ViTVAE
 register_model("vitvae", ViTVAE)
