@@ -1,0 +1,17 @@
+model_name: sigsigvae
+hyperparameters:
+  lr: 1e-3
+  # lr: 3e-4
+  z_dim: 64
+  dissimilarity:
+    - [mse]
+  autoencoding_loss: log
+  hidden_channels:
+    - [32, 64, 128, 256]
+dataset: svhn
+logger_path: runs.icml/gammas3/svhn
+batch_size: 128
+cuda_sync: false
+very_verbose: false
+epochs: 100
+lr_decay: 1e-1

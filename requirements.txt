@@ -1,0 +1,9 @@
+POT
+einops
+piq
+functorch
+torchdiffeq
+kaleido
+plotly
+optuna
+vaetc @ git+https://github.com/ganmodokix/vaetc@develop#egg=vaetc

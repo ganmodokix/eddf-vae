@@ -1,0 +1,12 @@
+model_name: dfcvae
+hyperparameters:
+  lr: 1e-3
+  z_dim: 64
+  beta: 1
+dataset: celeba
+logger_path: runs.icml/cms/celeba
+batch_size: 128
+cuda_sync: false
+very_verbose: false
+epochs: 100
+lr_decay: 1e-1

@@ -1,0 +1,15 @@
+model_name: geco
+hyperparameters:
+  # lr: 1e-3
+  lr: 3e-4
+  z_dim: 64
+  momentum: 0.99
+  tolerance: [0.01, 0.03, 0.1, 0.3, 1, 3, 10]
+  lbd_step: 100
+dataset: svhn
+logger_path: runs.icml/cms/svhn
+batch_size: 128
+cuda_sync: false
+very_verbose: false
+epochs: 100
+# lr_decay: 1e-1

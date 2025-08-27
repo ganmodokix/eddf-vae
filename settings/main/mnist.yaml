@@ -1,0 +1,35 @@
+model_name: sigsigvae
+hyperparameters:
+  lr: 1e-3
+  z_dim: 16
+  hidden_channels:
+    - [32, 64, 128, 256]
+  dissimilarity:
+    - [mse]
+    - [mae]
+    - [ce]
+    - [ssim]
+    - [cossim]
+    - [iwssim]
+    - [vif]
+    - [fsim]
+    - [srsim]
+    - [gmsd]
+    - [vsi]
+    - [dss]
+    - [content-score]
+    - [style-score]
+    - [haarpsi]
+    - [mdsi]
+    - [lpips]
+    - [pieapp]
+    - [dists]
+    - [mse, lpips]
+    - [mae, lpips]
+dataset: mnist
+logger_path: runs.icml/main/mnist
+batch_size: 128
+cuda_sync: false
+very_verbose: true
+epochs: 100
+lr_decay: 1e-1
