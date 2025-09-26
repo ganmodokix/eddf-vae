@@ -6,17 +6,16 @@ This is the official repository of code for the paper "Exponential Dissimilarity
 
 If you use this code in your work, please cite our paper as follows:
 
-*Note: This BibTeX citation is provisional because our paper is in press. Once the paper officially published, it will be updated.*
-
 ```
 @article{
     author  = {Togo, Ren and Nakagawa, Nao and Ogawa, Takahiro and Haseyama, Miki},
     title   = {{E}xponential {D}issimilarity-{D}ispersion {F}amily for Domain-Specific Representation Learning},
     journal = {{IEEE} Transactions on Image Processing},
     year    = {2025},
-    volume  = {},
+    volume  = {34},
     number  = {},
-    pages   = {in press}
+    pages   = {6110-6125},
+    doi     = {10.1109/TIP.2025.3608661}
 }
 ```
 
