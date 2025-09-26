@@ -1,6 +1,6 @@
 # Exponential Dissimilarity-Dispersion Family for Domain-Specific Representation Learning
 
-This is the official repository of code for the paper "Exponential Dissimilarity-Dispersion Family for Domain-Specific Representation Learning" (in press).
+This is the official repository of code for the paper ["Exponential Dissimilarity-Dispersion Family for Domain-Specific Representation Learning"](https://ieeexplore.ieee.org/document/11175279) ([IEEE TIP](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83)).
 
 ## BibTeX Citation
 
